@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../images/pic_boat_portrait.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #9E9E9E;
+  color: #646262;
+}
+
+header h2 {
+  padding: 30px;
+  margin-left: 5px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.blog-con {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.car-inbox-con {
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 30px;
+
+}
+
+.car-con {
+  position: relative;
+  width: 65%;
+  box-shadow: 2px 3px 5px #ccc;
+  background-color: #F1F1F1;
+
+}
+
+.inbox-con {
+  margin-left: 20px;
+  width: 30.8%;
+  position: relative;
+}
+
+.plus-con {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+  /* height: 50px; */
+  width: 50px;
+  padding: 15px 0;
+  position: absolute;
+  top: -25px;
+  right: -20px;
+}
+
+.position-con {
+  position: absolute;
+  bottom: 26%;
+  letter-spacing: 2px;
+  margin-left: 35px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.p-con {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px 30px;
+  word-spacing: 3px;
+}
+
+
+.square {
+  box-shadow: 2px 2px 5px 7px #aaa;
+  text-align: center;
+  margin-bottom: 40px 0;
+  overflow: hidden;
+}
+
+.square p:not(.two-hours, .three-hours) {
+  padding-top: 70px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.two-hours {
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.bg-white {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.three-hours {
+  padding: 20px;
+}
+
+.env1 {
+  font-size: 75px !important;
+}
+
+.env2 {
+  font-size: 45px !important;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.second-con {
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+}
+
+.last-con {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  font-size: 50px;
+}
+
+
+.last-p {
+  background-color: #F1F1F1;
+
+}
+
+
+
+/* ///Responsive  /// */
+
+@media screen and (max-width: 1024px) {
+  header h2  {
+      padding: 15px;
+      font-size: 70px;
+    }
+
+        .position-con {
+          bottom: 46%;
+        }
+  
+}
+
+
+@media screen and (max-width: 1024) {
+  header h2  {
+      padding: 20px;
+      font-size: 70px;
+      border: 1px solid red;
+    }
+  
+}
